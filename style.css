@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #100c0c;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.small {
+    font-size: 0.8em;
+}
+
+p.large {
+    font-size: 1.2em;
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+div.page {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Home Page */
+
+div#home {
+    background-image: url(assets/main_full_pngx2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    min-height: 100vh;
+    height: 90vh;
+    padding: 3rem 5rem 0rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+div#home div:first-child {
+    flex-grow: 1;
+}
+
+div#home div:nth-child(3) {
+    flex-grow: 2;
+}
+
+div#home div:nth-child(4) {
+    padding-bottom: 1em;
+}
+
+div#home .title {
+    max-width: 50em;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -3px;
+}
+
+/* Service Page */
+
+div#services {
+    display: grid;
+    grid-template: repeat(3, 15em) / repeat(3, 1fr);
+}
+
+div#services div[id^="srv-item"] {
+    display: flex;
+    align-items: center;
+}
+
+div#services #srv-item1 {
+    grid-row: 1 / span 3;
+    font-size: 1.2em;
+    padding: 0 5rem;
+    display: block;
+    align-self: center;
+}
+
+div#services #srv-item2 {
+    background-image: linear-gradient(117deg, rgb(255, 255, 255) 7%, rgba(255, 236, 215, 0.7) 80%);
+} 
+
+div#services #srv-item3 {
+    background-image: linear-gradient(133deg, rgb(255, 255, 255) 20%, rgba(255, 234, 234, 0.7) 84%);
+}
+
+div#services #srv-item4 {
+    background-image: linear-gradient(225deg, rgb(255, 255, 255) 10%, rgba(207, 247, 255, 0.7) 80%);
+}
+
+div#services #srv-item5 {
+    background-image: linear-gradient(242deg, rgb(255, 255, 255) 5%, rgba(231, 255, 228, 0.7) 78%);
+}
+
+div#services #srv-item6 {
+    background-image: linear-gradient(109deg, rgb(255, 255, 255) 6%, rgba(255, 250, 193, 0.7) 78%);
+}
+
+div#services #srv-item7 {
+    background-image: linear-gradient(143deg, rgb(255, 255, 255) 17%, rgba(249, 238, 255, 0.7) 84%);
+}
+
+div#services .card div:first-child {
+    padding: 0 1rem 0 2.5rem;
+    text-align: center;
+}
+
+div#services .card div:nth-child(2) {
+    padding: 0 2rem;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    color: #100c0c;
+}
+
+/* Augumented Reality */
+
+div#augumented-reality {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+div#augumented-reality #ar-item1 {
+    background-image: url(assets/augmented_reality_BGRDx1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 5rem;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#augumented-reality #ar-item2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    font-size: 1.2em;
+}
+
+div#augumented-reality #ar-item1 div:nth-child(4) {
+    padding: 1em 0 0.5em;
+}
+
+div#augumented-reality #ar-item2 div:first-child, div#augumented-reality #ar-item2 div:nth-child(2) {
+    align-self: center;
+    width: 15em;
+}
+
+.blue-line {
+    min-height: 2.5em;
+    width: 0.15em;
+    background-color: #0082ff;
+}
+
+.blue-title {
+    font-weight: bold;
+    color: #0082ff;
+}
+
+.blue-sub-title {
+    font-weight: bold;
+    color: #0082ff;
+    font-size: 0.8em;
+}
+
+.stikar {
+    margin-top: 2rem;
+}
+
+.interested {
+    margin-top: 20%;
+    align-self: flex-start;
+}
+
+.interested span {
+    background-color: #0082ff;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1em 2em;
+}
+
+/* Data Management & Artifical Intelligence */
+
+div#data-ai {
+    padding-top: 2em;
+    display: grid;
+    grid-template: repeat(2, auto) / 1fr 2fr;
+    grid-template-areas: "dataimage datatext" "gridbanner gridbanner";
+}
+
+div#data-ai #ai-item1 {
+    grid-area: dataimage;
+}
+
+div#data-ai #ai-item1 img {
+    object-fit: cover;
+    width: 100%;
+}
+
+div#data-ai #ai-item2 {
+    grid-area: datatext;
+    width: 30em;
+    padding-left: 5rem;
+    font-size: 1.2em;
+    align-self: center;
+}
+
+div#data-ai #ai-item3 {
+    grid-area: gridbanner;
+    margin-top: 5em;
+    justify-self: center;
+}
+
+div#data-ai #ai-item3 div:first-child {
+    background-color: #02D28B;
+    background-image: url(assets/green_cta_holder.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    width: 35em;
+    font-size: 1.5em;
+    padding: 0.8em 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+div#data-ai #ai-item4 {
+    align-self: flex-end;
+    justify-self: center;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.scheduleameeting span {
+    background-color: #100c0c;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1em 2em;
+}
+
+/* Security */
+
+div#security {
+    padding: 10em 0 10em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+div#security #sec-item1 {
+    width: 25em;
+    font-size: 1.2em;
+    align-self: center;
+    justify-self: center;
+}
+
+div#security #sec-item2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Let's Talk */
+
+div#lets-talk {
+    padding: 0 0 5em;
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+    grid-template-areas: "bannerlt1 bannerlt2 bannerlt3" "bannerlt1 bannerlt4 bannerlt5";
+    justify-items: center;
+}
+
+div#lets-talk #talk-item0 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: #0082ff;
+}
+
+div#lets-talk #talk-item1 {
+    grid-area: bannerlt1;
+    box-sizing: border-box;
+    padding: 5rem 0 5rem 5rem;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+div#lets-talk #talk-item2 {
+    grid-area: bannerlt2;
+    align-self: center;
+    justify-self: end;
+    margin-right: 3em;
+}
+
+div#lets-talk #talk-item2 div:first-child {
+    background-image: linear-gradient(40deg, #fcc183 10%, #fdf09c 97%);
+    width: 250px;
+    height: 350px;
+}
+
+div#lets-talk #talk-item3 {
+    grid-area: bannerlt3;
+    align-self: center;
+}
+
+div#lets-talk #talk-item4 {
+    grid-area: bannerlt4;
+    align-self: flex-end;
+}
+
+div#lets-talk #talk-item5 {
+    grid-area: bannerlt5;
+    align-self: center;
+    justify-self: start;
+    margin-left: 3em;
+}
+
+div#lets-talk #talk-item5 div:first-child {
+    background-image: linear-gradient(142deg, #21daeb 2%, #00f2ce 98%);
+    width: 250px;
+    height: 350px;
+}
+
+div#lets-talk #talk-item6 {
+    grid-area: 1 / 2 / 2 / 3;
+    align-self: center;
+    justify-self: end;
+    margin: 50px 0 0 180px;
+}
+
+div#lets-talk #talk-item6 div:first-child {
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 2em;
+    font-size: 0.8em;
+}
+
+div#lets-talk #talk-item7 {
+    grid-area: 2 / 3 / 3 / 4;
+    align-self: center;
+    justify-self: start;
+    margin: 50px 0 0 180px;
+}
+
+div#lets-talk #talk-item7 div:first-child {
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 2em;
+    font-size: 0.8em;
+}
+
+.getintouch {
+    margin-top: 3em;
+    float: right;
+}
+
+.getintouch span {
+    background-color: #100c0c;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1em 2em;
+}
+
+/* Clients */
+
+div#clients {
+    padding: 0 0 5em;
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(6 1fr);
+    grid-template-areas: ". . . . . . . header header header header header header" ". customer1 . customer2 . customer3 . customer4 . customer5 . customer6 .";
+    justify-content: space-between;
+}
+
+div#clients div.client-item {
+    padding-bottom: 7em;
+}
+
+div#clients div.client-item:first-child {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    grid-area: header;
+    font-size: 1.2em;
+}
+
+div#clients div.client-item:nth-child(2) {
+    grid-area: customer1;
+}
+
+div#clients div.client-item:nth-child(3) {
+    grid-area: customer2;
+}
+
+div#clients div.client-item:nth-child(4) {
+    grid-area: customer3;
+}
+
+div#clients div.client-item:nth-child(5) {
+    grid-area: customer4;
+}
+
+div#clients div.client-item:nth-child(6) {
+    grid-area: customer5;
+}
+
+div#clients div.client-item:nth-child(7) {
+    grid-area: customer6;
+}
+
+div#clients div.client-item:nth-child(8) {
+    background-image: linear-gradient(125deg, #ffffff 8%, #21daeb 39%, #1f00ff 98%);
+    opacity: 0.1;
+    grid-area: 1 / 7 / 3 / 14;
+    z-index: -1;
+}
+
+div#clients div.client-item div:nth-child(2) {
+    background-color: #0082ff;
+    height: 1px;
+    width: 5rem;
+}
+
+/* Team */
+
+div#team {
+    padding: 0 0 5em;
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(5 1fr);
+    justify-content: space-evenly;
+    row-gap: 2em;
+}
+
+div#team div.team-item {
+    text-align: center;
+}
+
+div#team div.team-item:first-child {
+    grid-column: 1 / span 5;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+div#team div.team-item div.picture {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+div#team div.team-item div.picture img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Contact */
+
+div#contact {
+    background-color: #100c0c;
+    background-image: url('assets/footer.svg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom right;
+    background-size: 55.5em;
+    min-height: 50em;
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(4, 1fr);
+    padding: 3rem 5rem 0;
+    color: #ffffff;
+}
+
+div#contact div.contact-item:first-child {
+    grid-column: 1 / span 4;
+}
+
+div#contact div.contact-item:nth-child(4) {
+    grid-column: 3 / span 2;
+}
+
+.contact-form {
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+    color: #ffffff;
+}
+
+.contact-form textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+.blue-button {
+    background-color: #0082ff;
+    color: #ffffff;
+    font-size: 0.8em;
+    padding: 0.7em 1.2em;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+/* The side navigation menu */
+
+#menu-icon {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    color: #555555;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #100c0c;
+    opacity: 0.8;
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    font-size: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div#home {
+        background-image: url(assets/main_full_pngx1.png);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ar-grid-item:first-child {
+        background-image: url(assets/augmented_reality_BGRDx2.png);
+    }
+}

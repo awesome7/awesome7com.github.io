@@ -31,3 +31,7 @@ document.querySelectorAll('.page').forEach(page => {
         closeNav();
     });
 });
+
+function onSubmit(token) {
+    document.getElementById("contact-form").submit();
+}

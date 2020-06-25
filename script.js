@@ -33,5 +33,16 @@ document.querySelectorAll('.page').forEach(page => {
 });
 
 function onSubmit(token) {
-    document.getElementById("contact-form").submit();
+    var data = {
+        subject: document.getElementById("name"),
+        toAddress: document.getElementById("email"),
+        messageBody: document.getElementById("message"),
+    };
+
+    var json = JSON.stringify(data);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==");
+    xhr.setRequestHeader("Content-Type", "multipart/form-data");
+    xhr.send(json);
 }

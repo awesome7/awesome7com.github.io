@@ -427,10 +427,10 @@
             </div>
             <div class="contact-item">
                 <h3>Fell free to contact us</h3>
-                <form class="contact-form">
-                    <input type="text" id="name" placeholder="Name*" />
-                    <input type="email" id="email" placeholder="Email*" />
-                    <textarea id="message" placeholder="Message*" onkeyup="adjust_textarea(this)"></textarea>
+                <form id="contact-form" class="contact-form">
+                    <input type="subject" id="name" placeholder="Name*" />
+                    <input type="toAddress" id="email" placeholder="Email*" />
+                    <textarea id="messageBody" placeholder="Message*" onkeyup="adjust_textarea(this)"></textarea>
                     <p class="small">
                         <input type="checkbox" name="policy" id="policy"> I have read and agree with the Privacy Policy.
                     </p>

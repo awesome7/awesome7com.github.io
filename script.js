@@ -33,16 +33,25 @@ document.querySelectorAll('.page').forEach(page => {
 });
 
 function onSubmit(token) {
-    var data = {
-        subject: document.getElementById("name"),
-        toAddress: document.getElementById("email"),
-        messageBody: document.getElementById("message"),
-    };
-
-    var json = JSON.stringify(data);
-
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==");
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(json);
+    xhr.open(
+        "POST", 
+        'a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==', 
+        true);
+
+    //Send the proper header information along with the request
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    xhr.onreadystatechange = function() { // Call a function when the state changes.
+        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+            alert("Message sent!");
+        }
+        else{
+            alert(this.status);
+        }
+    }
+
+    //xhr.send("foo=bar&lorem=ipsum")
+    // xhr.send(new Int8Array()); 
+    xhr.send(document.getElementById("contact-form"));
 }

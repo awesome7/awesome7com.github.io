@@ -46,12 +46,7 @@ function onSubmit(token) {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
             alert("Message sent!");
         }
-        else{
-            alert(this.status);
-        }
     }
 
-    //xhr.send("foo=bar&lorem=ipsum")
-    // xhr.send(new Int8Array()); 
-    xhr.send(document.getElementById("contact-form"));
+    xhr.send("toAddress=ivanstamenic@gmail.com&subject=Ivan Stamenic&messageBody=Hello from JS!");
 }

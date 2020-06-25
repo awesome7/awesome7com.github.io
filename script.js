@@ -43,6 +43,6 @@ function onSubmit(token) {
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==");
-    xhr.setRequestHeader("Content-Type", "multipart/form-data");
+    xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(json);
 }

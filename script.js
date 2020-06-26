@@ -39,10 +39,15 @@ function onSubmit(token) {
             alert("Message sent!");
         }
     }
+
+    // xhr.addEventListener("load", reqListener);
+    // xhr.addEventListener("error", transferFailed);
+    xhr.addEventListener("error", transferFailed);	
+
     xhr.open(
         "POST", 
         'a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==', 
-        false);
+        true);
 
     //Send the proper header information along with the request
     xhr.setRequestHeader("Content-Type", "application/json");
@@ -52,4 +57,10 @@ function onSubmit(token) {
         subject: document.getElementById("subject"),
         messageBody: document.getElementById("messageBody")
     }));
+
+    return false;
+}
+
+function transferFailed(e){
+    alert("Error!")
 }

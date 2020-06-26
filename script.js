@@ -42,7 +42,7 @@ function onSubmit(token) {
     xhr.open(
         "POST", 
         'a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==', 
-        true);
+        false);
 
     //Send the proper header information along with the request
     xhr.setRequestHeader("Content-Type", "application/json");
@@ -52,6 +52,4 @@ function onSubmit(token) {
         subject: document.getElementById("subject"),
         messageBody: document.getElementById("messageBody")
     }));
-
-    return false;
 }

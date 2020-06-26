@@ -47,6 +47,4 @@ document.querySelector("#contact-form").addEventListener("submit", function(e){
       }).then(res => {
         console.log("Request complete! response:", res);
       });
-
-    //xhr.send("toAddress");
 });

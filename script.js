@@ -41,7 +41,7 @@ document.querySelector("#contact-form").addEventListener("submit", function(e){
         messageBody: e.target["messageBody"].value
     };
 
-    fetch("a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
+    fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
         method: "POST", 
         body: JSON.stringify(data)
       }).then(res => {

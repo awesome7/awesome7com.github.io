@@ -32,7 +32,8 @@ document.querySelectorAll('.page').forEach(page => {
     });
 });
 
-function onSubmit(token) {
+function onSubmit(e) {
+    e.preventDefault();
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() { // Call a function when the state changes.
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -61,6 +62,6 @@ function onSubmit(token) {
     return false;
 }
 
-function transferFailed(e){
+function transferFailed(){
     alert("Error!")
 }

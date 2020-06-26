@@ -34,21 +34,24 @@ document.querySelectorAll('.page').forEach(page => {
 
 function onSubmit(token) {
     var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() { // Call a function when the state changes.
+        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+            alert("Message sent!");
+        }
+    }
     xhr.open(
         "POST", 
         'a7-send-email.azurewebsites.net/api/SendEmailA7?code=5CBlq477JWnzW56XTkj0Adusc/08r6f/YCaRvp2W0ObEIq3aCYfQ2A==', 
         true);
 
     //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader("Content-Type", "application/json");
 
-    xhr.onreadystatechange = function() { // Call a function when the state changes.
-        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-            alert("Message sent!");
-        }
-    }
-
-    xhr.send("toAddress=ivanstamenic@gmail.com&subject=Ivan Stamenic&messageBody=Hello from JS!");
+    xhr.send(JSON.stringify({
+        toAddress: document.getElementById("toAddress"),
+        subject: document.getElementById("subject"),
+        messageBody: document.getElementById("messageBody")
+    }));
 
     return false;
 }

@@ -49,4 +49,6 @@ function onSubmit(token) {
     }
 
     xhr.send("toAddress=ivanstamenic@gmail.com&subject=Ivan Stamenic&messageBody=Hello from JS!");
+
+    return false;
 }

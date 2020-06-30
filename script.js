@@ -35,11 +35,11 @@ document.querySelectorAll('.page').forEach(page => {
 document.querySelector("#contact-form").addEventListener("submit", function(e){
     e.preventDefault();
 
-    let data = {
-        toAddress: e.target["toAddress"].value,
-        subject: e.target["subject"].value,
-        messageBody: e.target["messageBody"].value
-    };
+    const formData = new FormData();
+
+    formData.append('toAddress', e.target["toAddress"].value);
+    formData.append('subject', e.target["subject"].value);
+    formData.append('messageBody', e.target["messageBody"].value);
 
     fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -47,12 +47,12 @@ document.querySelector("#contact-form").addEventListener("submit", function(e){
         //cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
         //credentials: 'include', // include, *same-origin, omit
         headers: {
-            'Content-Type': 'application/json'
-            // 'Content-Type': 'application/x-www-form-urlencoded',
+            //'Content-Type': 'application/json'
+            'Content-Type': 'application/x-www-form-urlencoded'
         },
         //redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify(data) // body data type must match "Content-Type" header
+        body: formData // body data type must match "Content-Type" header
       }).then(res => {
         console.log("Request complete! response:", res);
       }).catch(e =>  {

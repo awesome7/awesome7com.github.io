@@ -54,9 +54,6 @@ function sendEmail(event) {
         redirect: "follow",
         referrer: "no-referrer",
         body: JSON.stringify(data)
-    }).then(response => response.json())
-    .then(data => { 
-        console.log('Success:', JSON.stringify(data))
     })
     .catch(error => {
         console.error('Error:', error)

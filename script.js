@@ -37,10 +37,16 @@ document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
 /* Send contact email with Azure function */
 function sendEmail(event) {
+    // var data = {
+    //     toAddress: event.currentTarget[1].value,
+    //     subject: event.currentTarget[0].value,
+    //     messageBody: event.currentTarget[2].value
+    // }
+
     var data = {
-        toAddress: event.currentTarget[1].value,
-        subject: event.currentTarget[0].value,
-        messageBody: event.currentTarget[2].value
+        toAddress: "ivanstamenic@gmail.com",
+        subject: "Ivan Stamenic",
+        messageBody: "Message from website"
     }
 
     fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {

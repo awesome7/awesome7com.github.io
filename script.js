@@ -33,7 +33,11 @@ document.querySelectorAll('.page').forEach(page => {
 });
 
 /* Send email on post */
-document.querySelector(".contact-form").addEventListener("submit", sendEmail);
+// document.querySelector(".contact-form").addEventListener("submit", sendEmail);
+
+document.querySelectorAll('.contact-form').forEach(form => {
+    form.addEventListener('submit', sendEmail);
+});
 
 /* Send contact email with Azure function */
 function sendEmail(event) {

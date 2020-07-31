@@ -32,31 +32,31 @@ document.querySelectorAll('.page').forEach(page => {
     });
 });
 
-document.querySelector("#contact-form").addEventListener("submit", function(e){
-    e.preventDefault();
+/* Send email on post */
+document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
-    const formData = new FormData();
-
-    formData.append('toAddress', e.target["toAddress"].value);
-    formData.append('subject', e.target["subject"].value);
-    formData.append('messageBody', e.target["messageBody"].value);
+/* Send contact email with Azure function */
+function sendEmail(event) {
+    var data = {
+        toAddress: event.currentTarget[1].value,
+        subject: event.currentTarget[0].value,
+        messageBody: event.currentTarget[2].value
+    }
 
     fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
-        method: "POST", // *GET, POST, PUT, DELETE, etc.
-        //mode: 'cors', // no-cors, *cors, same-origin
-        //cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-        //credentials: 'include', // include, *same-origin, omit
+        method: "POST",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
         headers: {
-            //'Content-Type': 'application/json'
-            'Content-Type': 'application/x-www-form-urlencoded'
+            "Content-Type": "application/json"
         },
-        //redirect: 'follow', // manual, *follow, error
-        //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: formData // body data type must match "Content-Type" header
-      }).then(res => {
-        console.log("Request complete! response:", res);
-      }).catch(e =>  {
-          console.log(e);
-          return e;
-      });
-});
+        redirect: "follow",
+        referrer: "no-referrer",
+        body: JSON.stringify(data)
+    }).then(res => res.json())
+    .then(response => console.log('Success:', JSON.stringify(response)))
+    .catch(error => console.error('Error:', error));
+
+    event.preventDefault();
+}

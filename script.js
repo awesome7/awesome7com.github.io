@@ -33,24 +33,14 @@ document.querySelectorAll('.page').forEach(page => {
 });
 
 /* Send email on post */
-// document.querySelector(".contact-form").addEventListener("submit", sendEmail);
-
-document.querySelectorAll('.contact-form').forEach(form => {
-    form.addEventListener('submit', sendEmail);
-});
+document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
 /* Send contact email with Azure function */
 function sendEmail(event) {
-    // var data = {
-    //     toAddress: event.currentTarget[1].value,
-    //     subject: event.currentTarget[0].value,
-    //     messageBody: event.currentTarget[2].value
-    // }
-
     var data = {
-        toAddress: "ivanstamenic@gmail.com",
-        subject: "Ivan Stamenic",
-        messageBody: "Message from website"
+        toAddress: event.currentTarget[1].value,
+        subject: event.currentTarget[0].value,
+        messageBody: event.currentTarget[2].value
     }
 
     fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
@@ -64,9 +54,13 @@ function sendEmail(event) {
         redirect: "follow",
         referrer: "no-referrer",
         body: JSON.stringify(data)
-    }).then(res => res.json())
-    .then(response => console.log('Success:', JSON.stringify(response)))
-    .catch(error => console.error('Error:', error));
+    }).then(response => response.json())
+    .then(data => { 
+        console.log('Success:', JSON.stringify(data))
+    })
+    .catch(error => {
+        console.error('Error:', error)
+    });
 
     event.preventDefault();
 }

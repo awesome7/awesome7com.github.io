@@ -427,19 +427,22 @@
             </div>
             <div class="contact-item">
                 <h3>Fell free to contact us</h3>
-                <form class="contact-form">
-                    <input type="text" id="subject" placeholder="Name*" />
-                    <input type="email" id="toAddress" placeholder="Email*" />
-                    <textarea id="messageBody" placeholder="Message*" onkeyup="adjust_textarea(this)"></textarea>
-                    <p class="small">
-                        <input type="checkbox" name="policy" id="policy"> I have read and agree with the Privacy Policy.
-                    </p>
-                    <input type="submit" class="blue-button" value="Send &rarr;" />
-                    <!-- <button class="g-recaptcha blue-button" 
+                <div class="contact-item">
+                    <h3>Fell free to contact us</h3>
+                    <form action="https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==" class="contact-form">
+                        <input name="subject" type="text" placeholder="Name*" />
+                        <input name="toAddress" type="email" placeholder="Email*" />
+                        <textarea name="messageBody" placeholder="Message*" onkeyup="adjust_textarea(this)"></textarea>
+                        <!-- <p class="small">
+                            <input type="checkbox" name="" id=""> I have read and agree with the Privacy Policy.
+                        </p> -->
+                        <input type="button" class="blue-button" value="Send &rarr;" />
+                        <!-- <button class="g-recaptcha blue-button" 
                         data-sitekey="6LetiakZAAAAAMd0SzP4yxIaaBGv2KOE9TUPGhdD" 
                         data-callback='onSubmit' 
                         data-action='submit'>Send &rarr;</button> -->
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

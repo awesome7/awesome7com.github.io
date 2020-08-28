@@ -37,27 +37,10 @@ document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
 /* Send contact email with Azure function */
 function sendEmail(event) {
-    var data = {
-        toAddress: event.currentTarget[1].value,
-        subject: event.currentTarget[0].value,
-        messageBody: event.currentTarget[2].value
-    }
-
-    fetch("https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==", {
-        method: "POST",
-        mode: "cors",
-        cache: "no-cache",
-        credentials: "same-origin",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        redirect: "follow",
-        referrer: "no-referrer",
-        body: JSON.stringify(data)
-    })
-    .catch(error => {
-        console.error('Error:', error)
-    });
+    var formElement = document.querySelector("form");
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==");
+    request.send(new FormData(formElement));
 
     event.preventDefault();
 }

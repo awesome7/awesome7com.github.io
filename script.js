@@ -37,7 +37,7 @@ document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
 /* Send contact email with Azure function */
 function sendEmail(event) {
-    var formElement = document.querySelector("form");
+    var formElement = document.querySelector(".contact-form");
     var request = new XMLHttpRequest();
     request.open("POST", "https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==");
     request.send(new FormData(formElement));

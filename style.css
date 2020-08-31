@@ -513,6 +513,14 @@ div#contact div.contact-item:nth-child(4) {
     width: 500px;
 }
 
+.contact-form a:link,
+.contact-form a:active, 
+.contact-form a:hover, 
+.contact-form a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;

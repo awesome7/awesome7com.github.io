@@ -57,7 +57,7 @@ function sendEmail(event) {
 }
 
 function transferComplete(evt) {
-    writeMessage("Email successfully sent.", "successful");
+    writeMessage("Email successfully sent.", "success");
 }
 
 function transferFailed(evt) {
@@ -70,6 +70,6 @@ function transferCanceled(evt) {
 
 function writeMessage(message, status) {
     let msg = document.getElementById("email-message");
-    msg.classList.add(status);
+    msg.setAttribute("class", status)
     msg.innerHTML = message;
 }

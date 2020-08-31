@@ -422,25 +422,21 @@
             </div>
             <div class="contact-item">
                 <h3>Fell free to contact us</h3>
+                <div id="email-message"></div>
                 <form class="contact-form">
                     <input id="subject" name="subject" type="text" placeholder="Name*" />
                     <input id="toAddress" name="toAddress" type="email" placeholder="Email*" />
                     <textarea id="messageBody" name="messageBody" placeholder="Message*" onkeyup="adjust_textarea(this)"></textarea>
-                    <!-- <p class="small">
-                        <input type="checkbox" name="policy" id="policy"> I have read and agree with the Privacy Policy.
-                    </p> -->
+                    <p class="small">
+                        <input id="policy" name="policy" type="checkbox"> I have read and agree with the Privacy Policy.
+                    </p>
                     <input type="submit" class="blue-button" value="Send &rarr;" />
-                    <!-- <button class="g-recaptcha blue-button" 
-                        data-sitekey="6LetiakZAAAAAMd0SzP4yxIaaBGv2KOE9TUPGhdD" 
-                        data-callback='onSubmit' 
-                        data-action='submit'>Send &rarr;</button> -->
                 </form>
             </div>
         </div>
     </div>
     <span id="menu-icon" onclick="openNav()"><i class="demo-icon icon-menu"></i></span>
 
-    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
     <script src="script.js"></script>
 </body>
 

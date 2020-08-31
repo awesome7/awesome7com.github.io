@@ -37,10 +37,39 @@ document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
 /* Send contact email with Azure function */
 function sendEmail(event) {
-    var formElement = document.querySelector(".contact-form");
-    var request = new XMLHttpRequest();
+    let formElement = document.querySelector(".contact-form");
+    let formData = new FormData(formElement);
+    let request = new XMLHttpRequest();
+    request.addEventListener("load", transferComplete);
+    request.addEventListener("error", transferFailed);
+    request.addEventListener("abort", transferCanceled);
     request.open("POST", "https://a7-send-email.azurewebsites.net/api/SendEmailA7?code=TfZZcTJeH5oFdByV/bnJps2WDbdnmohhbe9Wfzy65yziGB3Qf4OJFA==");
-    request.send(new FormData(formElement));
+    
+    if(formData.get("policy") !== null && formData.get("policy") === "on"){
+        request.send(formData);
+    }
+    else
+    {
+        writeMessage("You must agree with the Privacy Policy", "failed")
+    }
 
     event.preventDefault();
+}
+
+function transferComplete(evt) {
+    writeMessage("Email successfully sent.", "successful");
+}
+
+function transferFailed(evt) {
+    writeMessage("An error occurred while sending an e-mail.", "failed");
+}
+
+function transferCanceled(evt) {
+    writeMessage("The action has been canceled by the user.", "failed");
+}
+
+function writeMessage(message, status) {
+    let msg = document.getElementById("email-message");
+    msg.classList.add(status);
+    msg.innerHTML = message;
 }

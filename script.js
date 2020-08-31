@@ -1,4 +1,4 @@
-/* Set the width of the side navigation to 250px */
+/* Set the width of the side navigation to 300px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "300px";
     document.getElementById("menu-icon").style.display = "none";

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1096px" viewBox="0 0 1920 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.4802261%" y1="39.7525054%" x2="98.6067708%" y2="64.8496246%" id="linearGradient-1">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#1F00FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.3013424%" y1="36.1201654%" x2="58.388344%" y2="64.0431891%" id="linearGradient-2">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#0082FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0.6467 0.218 460.042 0.218 460.042 740.0514 0.6467 740.0514"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="one-pager-1920">
+            <g id="Group-38">
+                <rect id="Rectangle" fill="#0082FF" fill-rule="nonzero" x="0" y="0" width="1920" height="1080"></rect>
+                <g id="Group-2" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) " fill-rule="nonzero">
+                    <polygon id="Rectangle" fill="url(#linearGradient-1)" opacity="0.420805432" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) " points="0 0 567.752737 685.121107 1920 1080 0 1080"></polygon>
+                    <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.373465402" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) " points="717 351.280277 1920 0 1920 1080 0 1080"></polygon>
+                </g>
+                <g id="Group-8" transform="translate(1096.000000, 340.000000)">
+                    <path d="M347.873956,513.158935 L347.873956,488.074797 L221.263729,507.457995 C182.482218,513.158935 151.685135,534.822509 151.685135,578.149658 C151.685135,611.215113 175.638422,643.14038 224.685627,643.14038 C288.561057,643.14038 347.873956,612.355301 347.873956,513.158935 M167.673004,417.383134 L305.670547,396.859748 C337.608262,392.317999 347.873956,376.336362 347.873956,356.953164 C347.873956,317.065583 317.076874,283.981125 253.201444,283.981125 C187.044748,283.981125 150.544503,326.168085 145.981972,375.196174 L11.4063268,346.691471 C20.5313882,258.896986 101.516308,162 252.060811,162 C429.999509,162 496.156204,262.336554 496.156204,375.196174 L496.156204,651.121697 C496.156204,680.747585 499.559091,720.673172 503,740.037366 L363.842813,740.037366 C360.420915,725.214921 358.13965,694.448845 358.13965,672.766268 C329.623833,717.233604 276.014097,756 192.747912,756 C73.0004913,756 0,675.065647 0,587.252159 C0,486.934609 74.141124,431.065391 167.673004,417.383134" id="Fill-1" fill="#00BFFF"></path>
+                    <g id="Group-5" transform="translate(363.000000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M278.6927,135.8704 L278.7877,135.8704 C278.7877,135.8704 277.9137,136.6114 276.5267,137.8464 L271.1117,142.7104 C229.4257,181.1094 28.2157,383.6874 0.6467,740.0514 L163.6477,740.0514 C196.7267,367.2904 404.1877,179.1904 460.0477,131.3104 L460.0477,0.2104 L428.7737,0.2104 L278.6927,135.8704 Z" id="Fill-3" fill="#0082FF" mask="url(#mask-4)"></path>
+                    </g>
+                    <polygon id="Fill-6" fill="#0082FF" points="261 0 261 136 460.779939 136 611 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

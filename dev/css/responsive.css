@@ -1,0 +1,731 @@
+@media (max-width: 1600px) {
+  #main .quote {
+    font-size: 68px;
+  }
+
+  #augmented-reality .ar-item.right .ar-inner {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 1440px) {
+  #augmented-reality .ar-item.right .ar-inner {
+    padding: 80px 40px;
+  }
+
+  #lets-talk .talk.left .talk-inner {
+    padding: 60px 40px;
+  }
+
+  #lets-talk .conference-wrapper {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  #lets-talk .illustration.ai {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #lets-talk .illustration.ar {
+    margin-left: 0;
+    position: inherit;
+    bottom: initial;
+  }
+
+  #lets-talk .conference {
+    margin-bottom: 40px;
+  }
+
+  #clients {
+    padding: 150px 60px;
+  }
+
+  #team {
+    padding: 150px 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .btn-blue, .btn-black {
+    margin: 0 auto !important;
+  }
+
+  #clients .gradient {
+    left: 0;
+    width: 100%;
+  }
+
+  #augmented-reality {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #augmented-reality .ar-item.right h3,
+  #augmented-reality .ar-item.right p {
+    text-align: center;
+  }
+
+  #augmented-reality .ar-item.right {
+    padding-top: 100px;
+  }
+
+  #augmented-reality .ar-item.right h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: -1.5px;
+    line-height: 28px;
+  }
+
+  #augmented-reality .ar-item.right p {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  #data-ai .data-ai-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #data-ai .data-ai-lead {
+    text-align: center;
+  }
+
+  #data-ai .data-ai-lead {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #security h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #security .sec-lead {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #security .banners {
+    text-align: center;
+  }
+
+  #including .inc-col:nth-child(1) {
+    border-bottom: 0;
+  }
+
+  #including .inc-col:nth-child(2) {
+    border-right: 1px solid #0082FF;
+    border-bottom: 0;
+  }
+
+  #lets-talk .talk.left .talk-inner {
+    padding: 80px 60px;
+  }
+
+  #lets-talk .talk .talk-title {
+    font-size: 44px;
+    text-align: center;
+    line-height: 44px;
+    letter-spacing: -2.2px;
+    margin-bottom: 45px;
+  }
+
+  #lets-talk .talk .talk-lead {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  #lets-talk .conference-wrapper {
+    padding: 40px 60px;
+  }
+
+  #footer .contact {
+    max-width: 100%;
+  }
+
+  #schedule-meeting {
+    padding: 60px 0;
+  }
+
+  #security {
+    margin-bottom: 60px;
+  }
+
+  #team {
+    padding: 60px;
+  }
+
+  #team .crew {
+    border-bottom: 1px solid #F4F4F4;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  #team .user-avatar {
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  #team h3.team-title {
+    margin-bottom: 0;
+  }
+
+  #team .crew .crew-name,
+  #team .crew .crew-title {
+    text-align: left;
+  }
+
+  #team .col-md-12:nth-child(even) .crew {
+    flex-direction: row-reverse;
+  }
+
+  #team .col-md-12:nth-child(even) .crew .user-avatar {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  #team .col-md-12:nth-child(even) .crew .crew-name,
+  #team .col-md-12:nth-child(even) .crew .crew-title {
+    text-align: right;
+  }
+
+  #team .col-md-12:last-child .crew {
+    border-bottom: 0;
+  }
+
+  #solutions .box.left {
+    margin-bottom: -55px;
+    background: rgba(207, 247, 255, 1);
+  }
+
+  #solutions .box.right {
+    clip-path: none;
+  }
+
+  #footer {
+    padding: 80px;
+  }
+
+  #footer .footer-back {
+    position: absolute;
+    top: inherit;
+    bottom: 0;
+    right: 0;
+    background-image: url("../img/footer-bgd.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 100%;
+    z-index: -1;
+    height: 500px;
+  }
+
+  #mySidenav .navi .navi-link {
+    font-size: 28px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #mySidenav .navi .navi-link {
+    font-size: 26px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  #main .quote {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -3.2px;
+    font-weight: 700;
+  }
+
+  #main .quote-author {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
+  #services .headline {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -1.5px;
+  }
+
+  #services .marked {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  #services .lead {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  #services hr {
+    margin-bottom: 60px;
+  }
+
+  #services .heading {
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    margin-bottom: 60px;
+  }
+
+  #solutions h2 {
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+
+  #operations {
+    padding: 40px 0;
+  }
+
+  #operations h3 {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    margin-bottom: 50px;
+  }
+
+  #operations p {
+    font-size: 18px;
+    letter-spacing: -0.9px;
+  }
+
+  #augmented-reality .ar-headline {
+    padding: 80px;
+    margin-bottom: 20px;
+  }
+
+  #augmented-reality .ar-lead {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 60px;
+  }
+
+  #augmented-reality .ar-item.left {
+    height: 530px;
+  }
+
+  #augmented-reality .stikar {
+    bottom: -50%;
+  }
+
+  #augmented-reality .ar-item.right {
+    padding-top: 220px;
+  }
+
+  .btn-theme {
+    width: 220px;
+    height: 60px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .btn-theme.btn-black {
+    width: 320px;
+  }
+
+  #schedule-meeting .hero .hero-inner p {
+    padding: 40px;
+  }
+
+  #schedule-meeting .btn-black {
+    margin-top: -20px !important;
+  }
+
+  #lets-talk {
+    margin-bottom: 60px;
+  }
+
+  #clients {
+    padding: 50px 60px;
+  }
+
+  #clients p.clients-title,
+  #clients p.clients-lead {
+    text-align: center;
+  }
+
+  #clients p.clients-title {
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 43px;
+  }
+
+  #clients p.clients-lead {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+  }
+
+  #clients .client-item .client-logo {
+    margin-bottom: 25px;
+  }
+
+  #clients .client-item .client-desc:before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #clients .client-item .client-desc p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  #clients .client-logo img {
+    margin: 0 auto;
+  }
+
+  #footer {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  #mySidenav .navi .navi-link {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  #main .awesome7 {
+    height: 303px;
+    bottom: -5px;
+  }
+
+  .header-inner {
+    padding: 20px;
+  }
+
+  .navi-toggler {
+    top: 20px;
+    right: 20px;
+  }
+
+  #main {
+    padding: 110px 20px 20px;
+  }
+
+  #main .quote {
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -2.27px;
+    font-weight: 700;
+    margin-bottom: 80px;
+  }
+
+  #main .scrollDown {
+    display: none;
+  }
+
+  #services .headline {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -1.1px;
+  }
+
+  #services .marked {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  #services .heading {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 35px;
+    letter-spacing: -1.1px;
+  }
+
+  #services hr {
+    margin-bottom: 35px;
+  }
+
+  #solutions .box {
+    height: 400px;
+    padding: 0 20px;
+  }
+
+  #solutions h2 {
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+
+  #including {
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+
+  #including h3 {
+    margin: 40px 0;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1.1px;
+    font-weight: 400;
+  }
+
+  #including .inc-col:nth-child(1) {
+    border-right: 1px solid #0082FF;
+  }
+
+  #including .inc-col:nth-child(3) {
+    border-right: 1px solid #0082FF;
+    border-bottom: 0;
+  }
+
+  #operations h3 {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1.1px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  #augmented-reality .ar-headline:before, #augmented-reality .ar-headline::after {
+    height: 30px;
+  }
+
+  #augmented-reality .ar-headline:before {
+    top: 15px;
+  }
+
+  #augmented-reality .ar-headline:after {
+    bottom: -15px;
+  }
+
+  #augmented-reality .ar-headline .ar-title {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  #augmented-reality .ar-headline .ar-subtitle {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0;
+  }
+
+  #augmented-reality .ar-lead {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    padding: 0 20px;
+  }
+
+  #augmented-reality .ar-headline {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+
+  #augmented-reality .ar-item.left {
+    height: 320px;
+  }
+
+  #augmented-reality .ar-item.right .ar-inner {
+    padding: 80px 20px;
+  }
+
+  #augmented-reality .ar-item.right h3 {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1.1px;
+    margin-bottom: 30px;
+  }
+
+  #augmented-reality .ar-item.right p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  #data-ai .data-ai-title {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.65px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  #schedule-meeting .container,
+  #schedule-meeting .col-12 {
+    padding: 0 !important;
+  }
+
+  #schedule-meeting .row {
+    margin: 0;
+  }
+
+  #schedule-meeting .hero .hero-inner p {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  #schedule-meeting .hero .hero-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  #security h3 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.65px;
+    font-weight: 400;
+    margin-b
+  }
+
+  #security .banners {
+    margin-bottom: 40px;
+  }
+
+  #lets-talk {
+    margin: 0;
+  }
+
+  #lets-talk .talk .talk-title {
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  #lets-talk .talk .talk-lead {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  #lets-talk .talk-col a {
+    width: 220px;
+    font-size: 22px;
+    padding: 15px;
+    line-height: 30px;
+  }
+
+  #lets-talk .conference-wrapper {
+    padding: 20px;
+  }
+
+  #lets-talk .illustration.ai,
+  #lets-talk .conference {
+    margin-bottom: 20px;
+  }
+
+  #lets-talk .conference .description {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+
+  #lets-talk .conference .name {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    line-height: 14px;
+  }
+
+  #lets-talk .conference .person {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+
+  #lets-talk .conference .date {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 20px;
+  }
+
+  #clients {
+    padding: 40px 20px;
+  }
+
+  #footer {
+    padding: 40px 5px;
+  }
+
+  #footer form input#subject {
+    width: 100%;
+  }
+
+  #footer form input#toAddress {
+    width: 100%;
+  }
+
+  #augmented-reality .ar-item.left {
+    height: 400px;
+  }
+
+  #augmented-reality .stikar {
+    width: 320px;
+  }
+
+  #augmented-reality .ar-item.right {
+    padding-top: 150px;
+  }
+
+  #mySidenav.show {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  #footer .footer-back {
+    height: 320px;
+  }
+
+  #mySidenav .navi .navi-link {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  #mySidenav .navi {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #operations .circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  #operations .circle .circle-inner {
+    height: 80px;
+    width: 80px;
+  }
+
+  #operations .circle .circle-inner img {
+    max-width: 32px;
+  }
+
+  #clients p.clients-title {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.65px;
+  }
+}

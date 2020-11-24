@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="867px" viewBox="0 0 640 867" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 41</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.5552424%" y1="17.6128565%" x2="76.486131%" y2="96.932147%" id="linearGradient-1">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#1F00FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.421577%" y1="6.13286828%" x2="54.5708607%" y2="94.3834124%" id="linearGradient-2">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#0082FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="one-pager-1920" transform="translate(0.000000, -6070.000000)" fill-rule="nonzero">
+            <g id="Group-41" transform="translate(0.000000, 6070.000000)">
+                <polygon id="Rectangle" fill="url(#linearGradient-1)" opacity="0.420805432" transform="translate(320.000000, 433.500000) scale(-1, 1) translate(-320.000000, -433.500000) " points="0 0 189.250912 550 640 867 0 867"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.2" transform="translate(320.000000, 433.500000) scale(-1, 1) translate(-320.000000, -433.500000) " points="239 282 640 0 640 867 0 867"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

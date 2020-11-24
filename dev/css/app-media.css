@@ -1,0 +1,1244 @@
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1440px) {
+  #main .quote {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  #solutions .box-inner {
+      padding: 60px 40px 120px 40px;
+  }
+
+  #operations {
+      padding: 80px 0;
+  }
+
+  #augmented-reality .ar-item.right .ar-inner {
+      padding: 40px 30px;
+  }
+
+  #augmented-reality .ar-item.right h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  #augmented-reality .ar-item.right p {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  #data-ai .data-ai-col {
+    padding: 0 30px;
+  }
+
+  #data-ai .col-4 {
+    -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+  }
+  #data-ai .col-8 {
+    -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  }
+
+  #data-ai .col-7 {
+    -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+  }
+
+  #schedule-meeting .hero .hero-inner p {
+    font-size: 26px;
+  }
+
+  #security .col-8 {
+    -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  }
+
+  #security .col-7 {
+    -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+  }
+
+  #security .col-4 {
+    -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  }
+
+  #lets-talk .col-4 {
+    -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  }
+
+  #lets-talk .talk.left .talk-inner {
+      padding: 80px 40px;
+  }
+
+  #lets-talk .talk .talk-title {
+      font-size: 48px;
+      line-height: 58px;
+  }
+
+  #lets-talk .talk .talk-lead {
+      font-size: 28px;
+      line-height: 40px;
+  }
+
+  #lets-talk .conference-wrapper {
+      max-width: 100%;
+      padding: 30px 30px;
+  }
+
+  #lets-talk .col-8 {
+    -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+  }
+
+  #lets-talk .illustration.ai {
+    margin-right: 0;
+  }
+
+  #lets-talk .illustration.ar {
+    margin-left: 0;
+  }
+
+  #clients {
+    padding: 80px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+#main .quote {
+  font-size: 66px;
+  line-height: 66px;
+}
+
+#solutions .box-inner {
+    padding: 60px 40px 120px 40px;
+}
+
+#operations {
+    padding: 80px 0;
+}
+
+#augmented-reality .ar-item.right .ar-inner {
+    padding: 40px 30px;
+}
+
+#augmented-reality .ar-item.right h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+#augmented-reality .ar-item.right p {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#data-ai .data-ai-col {
+  padding: 0 30px;
+}
+
+#data-ai .col-4 {
+  -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+}
+#data-ai .col-8 {
+  -ms-flex: 0 0 58.333333%;
+flex: 0 0 58.333333%;
+max-width: 58.333333%;
+}
+
+#data-ai .col-7 {
+  -ms-flex: 0 0 75%;
+flex: 0 0 75%;
+max-width: 75%;
+}
+
+#schedule-meeting .hero .hero-inner p {
+  font-size: 26px;
+}
+
+#security .col-8 {
+  -ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+}
+
+#security .col-7 {
+  -ms-flex: 0 0 75%;
+flex: 0 0 75%;
+max-width: 75%;
+}
+
+#security .col-4 {
+  -ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+}
+
+#lets-talk .col-4 {
+  -ms-flex: 0 0 41.666667%;
+flex: 0 0 41.666667%;
+max-width: 41.666667%;
+}
+
+#lets-talk .talk.left .talk-inner {
+    padding: 80px 40px;
+}
+
+#lets-talk .talk .talk-title {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+#lets-talk .talk .talk-lead {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+#lets-talk .conference-wrapper {
+    max-width: 100%;
+    padding: 30px 30px;
+}
+
+#lets-talk .col-8 {
+  -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+#lets-talk .illustration.ai {
+  margin-right: 0;
+}
+
+#lets-talk .illustration.ar {
+  margin-left: 0;
+}
+
+}
+
+
+@media (max-width: 1024px) {
+  #main .quote {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    margin-bottom: 50px;
+  }
+
+  #solutions .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #solutions .box.right {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+  }
+
+  #solutions .box-inner {
+    padding: 80px 60px 120px;
+  }
+
+  #solutions h2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+
+    #augmented-reality .col-8,
+    #augmented-reality .col-4 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    #augmented-reality .ar-item.left {
+      height: auto;
+      padding: 0 20px;
+      padding-bottom: 200px;
+
+    }
+
+    #augmented-reality .ar-headline .ar-subtitle {
+      font-weight: 400;
+    }
+
+    #augmented-reality .ar-lead {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    #augmented-reality .ar-item.right .ar-inner {
+        padding: 180px 60px 0;
+    }
+
+  #augmented-reality .ar-item.right h3 {
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #augmented-reality .ar-item.right h3 strong {
+    font-weight: 400;
+    display: block;
+    text-align: center;
+  }
+
+  #augmented-reality .ar-item.right p {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #augmented-reality {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .btn-theme {
+      display: block;
+      width: 220px;
+      height: 60px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 29px;
+      color: #fff;
+      padding: 16px 10px;
+      cursor: pointer;
+    }
+
+    .btn-blue {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+
+      #data-ai .col-4,
+      #data-ai .col-8,
+      #data-ai .col-7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+    #data-ai .data-ai-inner {
+      padding: 30px 60px;
+    }
+
+    #data-ai .data-ai-title {
+      font-size: 34px;
+      line-height: 45px;
+      text-align: center;
+      margin-bottom: 30px;
+      letter-spacing: -0.647px;
+    }
+
+    #data-ai .data-ai-lead {
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+    }
+
+    #schedule-meeting {
+      padding: 60px;
+    }
+
+    #schedule-meeting .container {
+      padding: 0;
+      max-width: 100%;
+    }
+
+    #schedule-meeting .container .row {
+      margin: 0 !important;
+    }
+
+    #schedule-meeting .container .col-12 {
+      padding-right: 0;
+    padding-left: 0;
+    }
+
+    #schedule-meeting .hero .hero-inner p {
+      font-size: 28px;
+      line-height: 34px;
+      padding: 60px 40px;
+    }
+
+    #schedule-meeting .btn-theme {
+      width: 320px;
+      margin: 0 auto;
+      margin-top: -10px;
+    }
+    #security {
+      padding: 0 20px;
+      margin-bottom: 50px;
+    }
+    #security .col-8,
+    #security .col-7,
+    #security .col-4 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    #security h3 {
+      font-size: 34px;
+      line-height: 45px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    #security .sec-lead {
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+    }
+
+    #security .col-8 {
+      margin-bottom: 50px;
+    }
+
+    #lets-talk .col-4,
+    #lets-talk .col-8 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    #lets-talk .talk.left .talk-inner {
+        padding: 80px 60px;
+    }
+
+    #lets-talk .talk .talk-title {
+      font-size: 44px;
+      line-height: 44px;
+      letter-spacing: -2.2px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    #lets-talk .talk .talk-lead {
+      font-size: 34px;
+      line-height: 45px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    #lets-talk .talk-col a {
+      margin: 0 auto;
+    }
+
+    #lets-talk .illustration.ai {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    #lets-talk .conference-wrapper {
+      padding: 0 60px;
+      max-width: 100%;
+    }
+
+    #lets-talk .conference .description {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+
+    #lets-talk .conference .person {
+      font-size: 14px;
+    }
+
+    #lets-talk .conference .name {
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: -0.7px;
+    }
+
+    #lets-talk .conference .date {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: -1px;
+    }
+
+    #lets-talk .illustration.ar {
+      position: unset;
+      margin: 0;
+    }
+
+    #lets-talk .conference {
+      margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 991px) {
+  .header-inner {
+    padding: 60px;
+  }
+
+  #main {
+    padding: 150px 60px;
+  }
+
+  #main .quote {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -3.2px;
+    margin-bottom: 50px;
+  }
+
+  #main .quote-author {
+    font-size: 20px;
+  }
+
+  #main .scrollDown {
+    display: none;
+  }
+
+  #services .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  #services .headline {
+    margin: 40px 0px 30px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+  }
+
+  #services .headline strong {
+    font-weight: 400;
+  }
+
+  #services .marked {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  #services .lead {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  #services .heading {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 40px 0;
+    letter-spacing: -1.5px;
+  }
+
+  #solutions .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #solutions .box.right {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+  }
+
+  #solutions .box-inner {
+    padding: 80px 60px 120px;
+  }
+
+  #solutions h2 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  #including h3 {
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: -1.3px;
+  }
+
+  #including .inc-col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  #including .container {
+    padding: 0 20px;
+  }
+
+  #including .row {
+    margin: 0;
+  }
+
+  #including .inc-col:first-child,
+  #including .inc-col:nth-child(2) {
+    border-bottom: 0;
+  }
+
+  #including .inc-col:nth-child(2) {
+    border-right: 1px solid #0082FF;
+  }
+
+  #operations {
+    padding: 60px 0px;
+    height: auto;
+  }
+
+  #operations h3 {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
+  #operations p {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.9px;
+  }
+
+  #operations .col-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+  }
+
+  #operations .container {
+    max-width: 100%;
+    padding: 0 60px;
+  }
+
+  #augmented-reality .col-8,
+  #augmented-reality .col-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #augmented-reality .ar-item.left {
+    height: auto;
+    padding: 0 20px;
+    padding-bottom: 200px;
+
+  }
+
+  #augmented-reality .ar-headline .ar-subtitle {
+    font-weight: 400;
+  }
+
+  #augmented-reality .ar-lead {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  #augmented-reality .ar-item.right .ar-inner {
+      padding: 180px 60px 0;
+  }
+
+#augmented-reality .ar-item.right h3 {
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#augmented-reality .ar-item.right h3 strong {
+  font-weight: 400;
+  display: block;
+  text-align: center;
+}
+
+#augmented-reality .ar-item.right p {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#augmented-reality {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.btn-theme {
+    display: block;
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #fff;
+    padding: 16px 10px;
+    cursor: pointer;
+  }
+
+  .btn-blue {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #data-ai .col-4,
+  #data-ai .col-8,
+  #data-ai .col-7 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+#data-ai .data-ai-inner {
+  padding: 30px 60px;
+}
+
+#data-ai .data-ai-title {
+  font-size: 34px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -0.647px;
+}
+
+#data-ai .data-ai-lead {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#schedule-meeting {
+  padding: 60px;
+}
+
+#schedule-meeting .container {
+  padding: 0;
+  max-width: 100%;
+}
+
+#schedule-meeting .container .row {
+  margin: 0 !important;
+}
+
+#schedule-meeting .container .col-12 {
+  padding-right: 0;
+padding-left: 0;
+}
+
+#schedule-meeting .hero .hero-inner p {
+  font-size: 28px;
+  line-height: 34px;
+  padding: 60px 40px;
+}
+
+#schedule-meeting .btn-theme {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+#security {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+#security .col-8,
+#security .col-7,
+#security .col-4 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#security h3 {
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#security .sec-lead {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#security .col-8 {
+  margin-bottom: 50px;
+}
+
+#lets-talk .col-4,
+#lets-talk .col-8 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#lets-talk .talk.left .talk-inner {
+    padding: 80px 60px;
+}
+
+#lets-talk .talk .talk-title {
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: -2.2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#lets-talk .talk .talk-lead {
+  font-size: 34px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#lets-talk .talk-col a {
+  margin: 0 auto;
+}
+
+#lets-talk .illustration.ai {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+#lets-talk .conference-wrapper {
+  padding: 0 60px;
+  max-width: 100%;
+}
+
+#lets-talk .conference .description {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#lets-talk .conference .person {
+  font-size: 14px;
+}
+
+#lets-talk .conference .name {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.7px;
+}
+
+#lets-talk .conference .date {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+#lets-talk .illustration.ar {
+  position: unset;
+  margin: 0;
+}
+
+#lets-talk .conference {
+  margin-bottom: 20px;
+}
+
+#clients {
+  padding: 60px 0;
+}
+
+#clients .clients-header {
+
+}
+
+}
+
+
+
+@media (max-width: 759px) {
+  .header-inner {
+    padding: 20px;
+  }
+
+  #main {
+    padding: 100px 20px;
+  }
+
+  #main .quote {
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -2.267px;
+  }
+
+  #main .quote-author {
+    font-size: 16px;
+  }
+
+  #main .scrollDown {
+    display: none;
+  }
+
+  #services .headline {
+    margin: 30px 0px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -1.1px;
+  }
+
+  #services .headline strong {
+    font-weight: 400;
+  }
+
+  #services .marked {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+  }
+
+  #services .lead {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  #services .heading {
+    font-size: 22px;
+    line-height: 22px;
+    margin: 40px 0;
+  }
+
+  #solutions .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #solutions .box.right {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+  }
+
+  #solutions .box-inner {
+    padding: 60px 20px 90px;
+  }
+
+  #solutions h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  #including h3 {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1.1px;
+  }
+
+  #including .inc-col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  #including .container {
+    padding: 0 20px;
+  }
+
+  #including .row {
+    margin: 0;
+  }
+
+  #including .inc-col:first-child,
+  #including .inc-col:nth-child(2) {
+    border-bottom: 0;
+  }
+
+  #including .inc-col:nth-child(2) {
+    border-right: 1px solid #0082FF;
+  }
+
+  #operations {
+    padding: 30px 20px;
+  }
+
+  #operations h3 {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1.1px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
+  #operations p {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.9px;
+  }
+
+  #operations .col-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #operations .circle {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  #operations .circle .circle-inner {
+    width: 90px;
+    height: 90px;
+  }
+
+  #augmented-reality .col-8,
+  #augmented-reality .col-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #augmented-reality .ar-item.left {
+    height: auto;
+    padding: 0 20px;
+padding-bottom: 100px;
+  }
+
+  #augmented-reality .ar-headline:before {
+    top: 15px;
+  }
+
+  #augmented-reality .ar-headline:before, #augmented-reality .ar-headline::after {
+    height: 30px;
+  }
+
+  #augmented-reality .ar-headline .ar-title {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 0;
+  }
+
+  #augmented-reality .ar-headline {
+    padding: 45px 0;
+    margin-bottom: 15px;
+  }
+
+  #augmented-reality .ar-headline .ar-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  #augmented-reality .ar-headline:after {
+    bottom: -15px;
+  }
+
+  #augmented-reality .ar-lead {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  #augmented-reality .ar-item.right .ar-inner {
+    padding: 180px 20px;
+}
+
+#augmented-reality .ar-item.right h3 {
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -1.1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#augmented-reality .ar-item.right h3 strong {
+  font-weight: 400;
+  display: block;
+  text-align: center;
+}
+
+#augmented-reality .ar-item.right p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#augmented-reality {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.btn-theme {
+    display: block;
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #fff;
+    padding: 16px 10px;
+    cursor: pointer;
+  }
+
+  .btn-blue {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #data-ai .col-4,
+  #data-ai .col-8,
+  #data-ai .col-7 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+#data-ai .data-ai-inner {
+  padding: 20px;
+}
+
+#data-ai .data-ai-title {
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -0.647px;
+}
+
+#data-ai .data-ai-lead {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#schedule-meeting {
+  padding: 50px 0;
+}
+
+#schedule-meeting .container {
+  padding: 0;
+}
+
+#schedule-meeting .hero .hero-inner p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+#schedule-meeting .btn-theme {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+#security {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+#security .col-8,
+#security .col-7,
+#security .col-4 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#security h3 {
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.647px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#security .sec-lead {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#security .col-8 {
+  margin-bottom: 50px;
+}
+
+#security .col-4.sec-col.text-right {
+  text-align: center !important;
+}
+
+#lets-talk .col-4,
+#lets-talk .col-8 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#lets-talk .talk.left .talk-inner {
+    padding: 90px 60px;
+}
+
+#lets-talk .talk .talk-title {
+  font-size: 40px;
+  line-height: 30px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#lets-talk .talk .talk-lead {
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#lets-talk .talk-col a {
+  margin: 0 auto;
+}
+
+#lets-talk .illustration.ai {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+#lets-talk .conference-wrapper {
+  padding: 0 20px;
+  max-width: 100%;
+}
+
+#lets-talk .conference .description {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#lets-talk .conference .person {
+  font-size: 14px;
+}
+
+#lets-talk .conference .name {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.7px;
+}
+
+#lets-talk .conference .date {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+#lets-talk .illustration.ar {
+  position: unset;
+  margin: 0;
+}
+
+#lets-talk .conference {
+  margin-bottom: 20px;
+}
+
+}

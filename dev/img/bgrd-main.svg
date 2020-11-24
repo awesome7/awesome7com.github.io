@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.4802261%" y1="39.7525054%" x2="98.6067708%" y2="64.8496246%" id="linearGradient-1">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#1F00FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.3013424%" y1="36.1201654%" x2="58.388344%" y2="64.0431891%" id="linearGradient-2">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#0082FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="one-pager-1920" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) ">
+                <polygon id="Rectangle" fill="url(#linearGradient-1)" opacity="0.420805432" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) " points="0 0 567.752737 685.121107 1920 1080 0 1080"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.373465402" transform="translate(960.000000, 540.000000) scale(-1, 1) translate(-960.000000, -540.000000) " points="717 351.280277 1920 0 1920 1080 0 1080"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

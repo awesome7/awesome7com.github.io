@@ -55,7 +55,7 @@ function transferFailed(evt) {
 }
 
 function transferCanceled(evt) {
-    writeMessage("The action has been canceled by the user.", "failed");
+    writeMessage("The action has been cancelled by the user.", "failed");
 }
 
 function writeMessage(message, status) {

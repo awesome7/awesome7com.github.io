@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1140px" height="200px" viewBox="0 0 1140 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 47</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.4802261%" y1="49.0031658%" x2="98.6067708%" y2="51.4445105%" id="linearGradient-1">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#1F00FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.3013424%" y1="48.6498267%" x2="58.388344%" y2="51.3660638%" id="linearGradient-2">
+            <stop stop-color="#21DAEB" offset="0%"></stop>
+            <stop stop-color="#0082FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="one-pager-1920" transform="translate(-391.000000, -5057.000000)">
+            <g id="Group-47" transform="translate(391.000000, 5057.000000)">
+                <rect id="Rectangle" fill="#02D28B" x="0" y="0" width="1140" height="200"></rect>
+                <g id="Group-26" opacity="0.532784598" transform="translate(570.000000, 100.000000) scale(1, -1) translate(-570.000000, -100.000000) " fill-rule="nonzero">
+                    <polygon id="Rectangle" fill="url(#linearGradient-1)" opacity="0.420805432" transform="translate(570.000000, 100.000000) scale(-1, 1) translate(-570.000000, -100.000000) " points="0 0 337.103188 126.874279 1140 200 0 200"></polygon>
+                    <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.2" transform="translate(570.000000, 100.000000) scale(-1, 1) translate(-570.000000, -100.000000) " points="425.71875 65.0519031 1140 0 1140 200 0 200"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -447,17 +447,17 @@ input[type=submit]:focus {
   font-weight: 400;
 }
 
-#including .inc-col {
+/* #including .inc-col {
   border-top: 1px solid #0082FF;
   border-bottom: 1px solid #0082FF;
   border-left: 1px solid #0082FF;
-}
+} */
 
 #including .inc-col:nth-child(3) {}
 
-#including .inc-col:last-child {
+/* #including .inc-col:last-child {
   border-right: 1px solid #0082FF;
-}
+} */
 
 #including .block {
   height: 200px;

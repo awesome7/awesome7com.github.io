@@ -33,7 +33,7 @@ function sendEmail(event) {
     request.addEventListener("load", transferComplete);
     request.addEventListener("error", transferFailed);
     request.addEventListener("abort", transferCanceled);
-    request.open("POST", "https://a7-serverless.azurewebsites.net/api/SendEmail?code=pnh8e2PZlylfAhQ4QNQHSnFb58yeMfTZnXCuv5SasUsqT1g2njIJDA==");
+    request.open("POST", "https://a7-play-function-dev-we.azurewebsites.net/api/SendEmail?code=lqoW_7NE_EF_HBP9G9-UCOgrmx458wLLKm5TftNwWbXxAzFueBQRXA==");
 
     if(formData.get("policy") !== null && formData.get("policy") === "on"){
         request.send(formData);
